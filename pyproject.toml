@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "fictional-waffle"
+version = "0.1.0"
+description = "test_git"
+authors = ["Mente"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+fastapi = "^0.115.5"
+
+
+[tool.poetry.group.dev.dependencies]
+ruff = "^0.7.4"
+pre-commit = "^4.0.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
